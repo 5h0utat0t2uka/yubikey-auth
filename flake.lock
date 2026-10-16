@@ -1,5 +1,41 @@
 {
   "nodes": {
+    "agent-skills": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1791801176,
+        "narHash": "sha256-7yMjYQUjpCy0IhItfGt2EJbOobNu1pkIrBX2GA3yOcU=",
+        "owner": "Kyure-A",
+        "repo": "agent-skills-nix",
+        "rev": "2948865044b2af55c8c4e4eb2abda7de79d60f0e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Kyure-A",
+        "repo": "agent-skills-nix",
+        "type": "github"
+      }
+    },
+    "better-auth-skills": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1788222151,
+        "narHash": "sha256-XOl+MXCLOs8EAP9nteIbOthsFrxcBuWG2MRpUr3PexM=",
+        "owner": "better-auth",
+        "repo": "skills",
+        "rev": "20c9e88a5c007461a703f1c213572b073196113e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "better-auth",
+        "repo": "skills",
+        "type": "github"
+      }
+    },
     "flake-compat": {
       "flake": false,
       "locked": {
@@ -87,6 +123,8 @@
     },
     "root": {
       "inputs": {
+        "agent-skills": "agent-skills",
+        "better-auth-skills": "better-auth-skills",
         "flake-utils": "flake-utils",
         "git-hooks": "git-hooks",
         "nixpkgs": "nixpkgs_2"

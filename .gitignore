@@ -26,3 +26,6 @@ dist-ssr
 .direnv
 .pre-commit-config.yaml
 .env
+
+# Generated from the skill inputs in flake.nix / flake.lock.
+/.agents/skills/
